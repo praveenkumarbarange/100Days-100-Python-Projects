@@ -21,3 +21,8 @@ Projects are organized by **difficulty levels** so you can progress smoothly fro
 ---
 
 ## 📂 Repository Structure
+
+**Day 1**
+Main Project: Hello World & Calculator → Print text, take input, perform addition.
+
+Homework: Temperature Converter, Odd/Even Checker, Multiplication Table
