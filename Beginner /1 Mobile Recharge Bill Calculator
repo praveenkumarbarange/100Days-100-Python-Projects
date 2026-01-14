@@ -1,93 +1,51 @@
-Coding Assignment – Mobile Recharge Bill Calculator
-🧩 Problem Statement
+# 📱 Mobile Recharge Bill Calculator
 
-You are required to build a console-based billing application for a telecom service provider.
+## 🧩 Problem Statement
 
-The application should calculate the final payable amount for a mobile recharge by applying Goods and Services Tax (GST) on the selected recharge plan.
+You are required to build a **console-based billing application** for a telecom service provider.
 
-🎯 Objective
+The application calculates the **final payable amount** for a mobile recharge by applying **Goods and Services Tax (GST)** on the selected recharge plan.
+
+---
+
+## 🎯 Objective
 
 Develop a Python program that:
+- Accepts a recharge plan amount from the user
+- Applies a fixed GST rate
+- Displays a detailed billing summary in a readable format
 
-Accepts a recharge plan amount from the user
+---
 
-Applies a fixed GST rate
+## 📥 Input Specification
 
-Displays a detailed billing summary in a readable format
+- A single numeric value representing the **recharge plan amount** (in INR)
 
-📥 Input Specification
+---
 
-A single numeric value representing the recharge plan amount (in INR)
+## 📤 Output Specification
 
-📤 Output Specification
+The program should display:
+- Base plan amount
+- GST amount
+- Total payable amount after tax
 
-Display the following:
+---
 
-Base plan amount
+## ⚙️ Business Rules
 
-GST amount
+- GST rate is fixed at **18%**
+- Recharge amount must be a **positive number**
+- Currency should be displayed in **Indian Rupees (₹)**
 
-Total payable amount after tax
+---
 
-⚙️ Business Rules
+## 🛠️ Constraints
 
-GST rate is fixed at 18%
+- `1 ≤ Recharge Amount ≤ 10,000`
+- Use only **basic Python constructs**
+- No external libraries allowed
 
-Recharge amount must be a positive number
+---
 
-Currency should be displayed in Indian Rupees (₹)
-
-🛠️ Constraints
-
-1 ≤ Recharge Amount ≤ 10,000
-
-Use only basic Python constructs
-
-Do not use external libraries
-
-📌 Sample Input
-299
-
-📌 Sample Output
------ Mobile Recharge Bill -----
-Plan Amount      : ₹299.00
-GST (18%)        : ₹53.82
-Total Payable    : ₹352.82
-
-🧠 Evaluation Criteria (What Interviewers Look For)
-
-Correct use of input/output
-
-Clean and readable code
-
-Proper variable naming
-
-Accurate calculations
-
-Output formatting
-
-⭐ Bonus (Optional Enhancements)
-
-Round monetary values to two decimal places
-
-Handle invalid input (negative values)
-
-Allow GST percentage as configurable input
-
-🧪 Difficulty Level
-
-Easy (Absolute Beginner)
-
-⏱️ Expected Time
-
-10–15 minutes
-
-📚 Skills Assessed
-
-Python basics
-
-Arithmetic operations
-
-Console I/O
-
-Logical thinking
+## 📌 Sample Input
